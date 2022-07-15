@@ -1,2 +1,5 @@
 image: docker.io/keptnexamples/carts:0.13.3
 replicaCount: 1
+control-plane:
+  api-gateway-nginx:
+    serviceType: LoadBalancer
